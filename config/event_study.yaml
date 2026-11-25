@@ -1,0 +1,66 @@
+# Event study configuration (S&P 100, 8-K Item 2.02 earnings events)
+start_date: "2021-01-01"        # events on/after this date; change to 2010-01-01 later
+price_history_buffer_days: 200  # calendar days of price history fetched before start_date (needs >= 61 trading days)
+
+paths:
+  options_universe: config/options_universe.yaml
+  edgar_fields: config/edgar_fields.yaml
+  event_universe: config/event_universe.yaml
+  edgar_db: data_fundamentals/edgar.sqlite        # append-only raw facts
+  event_db: data_fundamentals/event_study.sqlite  # all new derived tables
+  prices_dir: data_pit/prices
+  report: docs/event_study_report.md
+  raw_cache: data_raw
+
+sec:
+  # SEC fair-access policy: declare a User-Agent with contact info; <= 10 req/s.
+  # Override with the SEC_USER_AGENT environment variable.
+  user_agent: "ai_market_agent event-study research@example.com"
+  max_requests_per_second: 8
+
+wikipedia:
+  sp500_url: "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+
+universe:
+  excluded_gics_industries: ["Banks"]
+
+prices:
+  primary_source: yfinance   # free; stooq attempted as fallback
+  benchmark: SPY
+  sector_etfs:
+    Communication Services: XLC
+    Consumer Discretionary: XLY
+    Consumer Staples: XLP
+    Energy: XLE
+    Financials: XLF
+    Health Care: XLV
+    Industrials: XLI
+    Information Technology: XLK
+    Materials: XLB
+    Real Estate: XLRE
+    Utilities: XLU
+
+events:
+  after_close_time: "16:00"   # acceptance at/after this NY time -> next trading day
+  timezone: America/New_York
+
+returns:
+  pre_window: 60
+  post_windows: [1, 5, 20, 60]
+
+pit:
+  # release_proxy: info set = everything accepted before the 8-K + the announced
+  #   period's figures, taken from the linked 10-Q/10-K XBRL as a proxy for the
+  #   numbers published in the 8-K exhibit (8-K financials are not XBRL-tagged).
+  # strict: only facts accepted before the 8-K acceptance time (announced quarter
+  #   is therefore usually NOT visible; metrics describe the previous quarter).
+  modes: [release_proxy, strict]
+  primary_mode: release_proxy
+
+analysis:
+  classification_return: excess_sector   # raw | excess_spy | excess_sector
+  fdr_alpha: 0.05                        # Benjamini-Hochberg FDR level (conventional)
+  bootstrap_reps: 1000
+  bootstrap_ci: 0.95
+  bootstrap_cluster: ticker              # resample companies (events of a firm are dependent)
+  seed: 20210101

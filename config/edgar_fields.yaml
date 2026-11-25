@@ -1,0 +1,79 @@
+# EDGAR companyfacts fields used by the event study.
+# Each field lists standard us-gaap tags in priority order (first tag with a
+# value for the period wins). These lists are generic us-gaap synonyms, NOT
+# company-specific fallbacks. Company x field gaps are reported, not patched.
+# source: AI-derived (Claude) tag selection -- review before relying on it.
+taxonomy: us-gaap
+fields:
+  revenue:
+    type: duration
+    unit: USD
+    tags: [Revenues, RevenueFromContractWithCustomerExcludingAssessedTax,
+           RevenueFromContractWithCustomerIncludingAssessedTax, SalesRevenueNet]
+  cost_of_revenue:
+    type: duration
+    unit: USD
+    tags: [CostOfRevenue, CostOfGoodsAndServicesSold, CostOfGoodsSold]
+  gross_profit:
+    type: duration
+    unit: USD
+    tags: [GrossProfit]
+  operating_income:
+    type: duration
+    unit: USD
+    tags: [OperatingIncomeLoss]
+  net_income:
+    type: duration
+    unit: USD
+    tags: [NetIncomeLoss, ProfitLoss]
+  ocf:
+    type: duration
+    unit: USD
+    tags: [NetCashProvidedByUsedInOperatingActivities,
+           NetCashProvidedByUsedInOperatingActivitiesContinuingOperations]
+  capex:
+    type: duration
+    unit: USD
+    tags: [PaymentsToAcquirePropertyPlantAndEquipment, PaymentsToAcquireProductiveAssets]
+  dna:
+    type: duration
+    unit: USD
+    tags: [DepreciationDepletionAndAmortization, DepreciationAmortizationAndAccretionNet,
+           DepreciationAndAmortization]
+  eps_diluted:
+    type: duration
+    unit: USD/shares
+    tags: [EarningsPerShareDiluted]
+  total_assets:
+    type: instant
+    unit: USD
+    tags: [Assets]
+  current_assets:
+    type: instant
+    unit: USD
+    tags: [AssetsCurrent]
+  current_liabilities:
+    type: instant
+    unit: USD
+    tags: [LiabilitiesCurrent]
+  cash:
+    type: instant
+    unit: USD
+    tags: [CashAndCashEquivalentsAtCarryingValue,
+           CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents]
+  debt_noncurrent:
+    type: instant
+    unit: USD
+    tags: [LongTermDebtNoncurrent, LongTermDebtAndCapitalLeaseObligations]
+  debt_current:
+    type: instant
+    unit: USD
+    tags: [LongTermDebtCurrent, DebtCurrent, LongTermDebtAndCapitalLeaseObligationsCurrent]
+  short_term_borrowings:
+    type: instant
+    unit: USD
+    tags: [ShortTermBorrowings, CommercialPaper]
+  rpo:
+    type: instant
+    unit: USD
+    tags: [RevenueRemainingPerformanceObligation]

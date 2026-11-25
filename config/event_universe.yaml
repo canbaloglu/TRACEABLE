@@ -1,0 +1,1316 @@
+generated: '2026-11-25'
+source: config/options_universe.yaml (S&P 100) + https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+survivorship_bias_note: 'Current index membership is applied to the whole history: firms that left the S&P 100 are missing
+  and later entrants are included -> survivorship bias.'
+companies:
+- ticker: AAPL
+  name: Apple Inc.
+  cik: 320193
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Technology Hardware, Storage & Peripherals
+  gics_industry: Technology Hardware, Storage & Peripherals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: ABBV
+  name: AbbVie
+  cik: 1551152
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Biotechnology
+  gics_industry: Biotechnology
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: ABT
+  name: Abbott Laboratories
+  cik: 1800
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Health Care Equipment
+  gics_industry: Health Care Equipment & Supplies
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: ACN
+  name: Accenture
+  cik: 1467373
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: IT Consulting & Other Services
+  gics_industry: IT Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: ADBE
+  name: Adobe Inc.
+  cik: 796343
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Application Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: AMAT
+  name: Applied Materials
+  cik: 6951
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductor Materials & Equipment
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: AMD
+  name: Advanced Micro Devices
+  cik: 2488
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductors
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: AMGN
+  name: Amgen
+  cik: 318154
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Biotechnology
+  gics_industry: Biotechnology
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: AMT
+  name: American Tower
+  cik: 1053507
+  predecessor_ciks: []
+  gics_sector: Real Estate
+  gics_sub_industry: Telecom Tower REITs
+  gics_industry: Specialized REITs
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: AMZN
+  name: Amazon
+  cik: 1018724
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Broadline Retail
+  gics_industry: Broadline Retail
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: ANET
+  name: Arista Networks
+  cik: 1596532
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Communications Equipment
+  gics_industry: Communications Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: AVGO
+  name: Broadcom
+  cik: 1730168
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductors
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: AXP
+  name: American Express
+  cik: 4962
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Consumer Finance
+  gics_industry: Consumer Finance
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: BA
+  name: Boeing
+  cik: 12927
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Aerospace & Defense
+  gics_industry: Aerospace & Defense
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: BKNG
+  name: Booking Holdings
+  cik: 1075531
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Hotels, Resorts & Cruise Lines
+  gics_industry: Hotels, Restaurants & Leisure
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: BLK
+  name: BlackRock
+  cik: 2012383
+  predecessor_ciks:
+  - 1364742
+  gics_sector: Financials
+  gics_sub_industry: Asset Management & Custody Banks
+  gics_industry: Capital Markets
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: AI-derived, verified on EDGAR
+- ticker: BMY
+  name: Bristol Myers Squibb
+  cik: 14272
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Pharmaceuticals
+  gics_industry: Pharmaceuticals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: BNY
+  name: BNY Mellon
+  cik: 1390777
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Asset Management & Custody Banks
+  gics_industry: Capital Markets
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: BRK.B
+  name: Berkshire Hathaway
+  cik: 1067983
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Multi-Sector Holdings
+  gics_industry: Financial Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: CAT
+  name: Caterpillar Inc.
+  cik: 18230
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Construction Machinery & Heavy Transportation Equipment
+  gics_industry: Machinery
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: CMCSA
+  name: Comcast
+  cik: 1166691
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Cable & Satellite
+  gics_industry: Media
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: COF
+  name: Capital One
+  cik: 927628
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Consumer Finance
+  gics_industry: Consumer Finance
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: COP
+  name: ConocoPhillips
+  cik: 1163165
+  predecessor_ciks: []
+  gics_sector: Energy
+  gics_sub_industry: Oil & Gas Exploration & Production
+  gics_industry: Oil, Gas & Consumable Fuels
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: COST
+  name: Costco
+  cik: 909832
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Consumer Staples Merchandise Retail
+  gics_industry: Consumer Staples Distribution & Retail
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: CRM
+  name: Salesforce
+  cik: 1108524
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Application Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: CSCO
+  name: Cisco
+  cik: 858877
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Communications Equipment
+  gics_industry: Communications Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: CVS
+  name: CVS Health
+  cik: 64803
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Health Care Services
+  gics_industry: Health Care Providers & Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: CVX
+  name: Chevron Corporation
+  cik: 93410
+  predecessor_ciks: []
+  gics_sector: Energy
+  gics_sub_industry: Integrated Oil & Gas
+  gics_industry: Oil, Gas & Consumable Fuels
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: DE
+  name: Deere & Company
+  cik: 315189
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Agricultural & Farm Machinery
+  gics_industry: Machinery
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: DELL
+  name: Dell Technologies
+  cik: 1571996
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Technology Hardware, Storage & Peripherals
+  gics_industry: Technology Hardware, Storage & Peripherals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: DHR
+  name: Danaher Corporation
+  cik: 313616
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Life Sciences Tools & Services
+  gics_industry: Life Sciences Tools & Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: DIS
+  name: Walt Disney Company (The)
+  cik: 1744489
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Movies & Entertainment
+  gics_industry: Entertainment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: DUK
+  name: Duke Energy
+  cik: 1326160
+  predecessor_ciks: []
+  gics_sector: Utilities
+  gics_sub_industry: Electric Utilities
+  gics_industry: Electric Utilities
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: EMR
+  name: Emerson Electric
+  cik: 32604
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Electrical Components & Equipment
+  gics_industry: Electrical Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: FDX
+  name: FedEx
+  cik: 1048911
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Air Freight & Logistics
+  gics_industry: Air Freight & Logistics
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: GD
+  name: General Dynamics
+  cik: 40533
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Aerospace & Defense
+  gics_industry: Aerospace & Defense
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: GE
+  name: GE Aerospace
+  cik: 40545
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Aerospace & Defense
+  gics_industry: Aerospace & Defense
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: GEV
+  name: GE Vernova
+  cik: 1996810
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Heavy Electrical Equipment
+  gics_industry: Electrical Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: GILD
+  name: Gilead Sciences
+  cik: 882095
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Biotechnology
+  gics_industry: Biotechnology
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: GM
+  name: General Motors
+  cik: 1467858
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Automobile Manufacturers
+  gics_industry: Automobiles
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: GOOG
+  name: Alphabet Inc. (Class C)
+  cik: 1652044
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Interactive Media & Services
+  gics_industry: Interactive Media & Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: GS
+  name: Goldman Sachs
+  cik: 886982
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Investment Banking & Brokerage
+  gics_industry: Capital Markets
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: HD
+  name: Home Depot (The)
+  cik: 354950
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Home Improvement Retail
+  gics_industry: Specialty Retail
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: IBM
+  name: IBM
+  cik: 51143
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: IT Consulting & Other Services
+  gics_industry: IT Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: INTC
+  name: Intel
+  cik: 50863
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductors
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: INTU
+  name: Intuit
+  cik: 896878
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Application Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: ISRG
+  name: Intuitive Surgical
+  cik: 1035267
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Health Care Equipment
+  gics_industry: Health Care Equipment & Supplies
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: JNJ
+  name: Johnson & Johnson
+  cik: 200406
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Pharmaceuticals
+  gics_industry: Pharmaceuticals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: KO
+  name: Coca-Cola Company (The)
+  cik: 21344
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Soft Drinks & Non-alcoholic Beverages
+  gics_industry: Beverages
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: LIN
+  name: Linde plc
+  cik: 1707925
+  predecessor_ciks: []
+  gics_sector: Materials
+  gics_sub_industry: Industrial Gases
+  gics_industry: Chemicals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: LLY
+  name: Lilly (Eli)
+  cik: 59478
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Pharmaceuticals
+  gics_industry: Pharmaceuticals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: LMT
+  name: Lockheed Martin
+  cik: 936468
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Aerospace & Defense
+  gics_industry: Aerospace & Defense
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: LOW
+  name: Lowe's
+  cik: 60667
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Home Improvement Retail
+  gics_industry: Specialty Retail
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: LRCX
+  name: Lam Research
+  cik: 707549
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductor Materials & Equipment
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MA
+  name: Mastercard
+  cik: 1141391
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Transaction & Payment Processing Services
+  gics_industry: Financial Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MCD
+  name: McDonald's
+  cik: 63908
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Restaurants
+  gics_industry: Hotels, Restaurants & Leisure
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MDLZ
+  name: Mondelez International
+  cik: 1103982
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Packaged Foods & Meats
+  gics_industry: Food Products
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MDT
+  name: Medtronic
+  cik: 1613103
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Health Care Equipment
+  gics_industry: Health Care Equipment & Supplies
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: META
+  name: Meta Platforms
+  cik: 1326801
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Interactive Media & Services
+  gics_industry: Interactive Media & Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MMM
+  name: 3M
+  cik: 66740
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Industrial Conglomerates
+  gics_industry: Industrial Conglomerates
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MO
+  name: Altria
+  cik: 764180
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Tobacco
+  gics_industry: Tobacco
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MRK
+  name: Merck & Co.
+  cik: 310158
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Pharmaceuticals
+  gics_industry: Pharmaceuticals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MS
+  name: Morgan Stanley
+  cik: 895421
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Investment Banking & Brokerage
+  gics_industry: Capital Markets
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MSFT
+  name: Microsoft
+  cik: 789019
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Systems Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: MU
+  name: Micron Technology
+  cik: 723125
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductors
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: NEE
+  name: NextEra Energy
+  cik: 753308
+  predecessor_ciks: []
+  gics_sector: Utilities
+  gics_sub_industry: Multi-Utilities
+  gics_industry: Multi-Utilities
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: NFLX
+  name: Netflix
+  cik: 1065280
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Movies & Entertainment
+  gics_industry: Entertainment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: NOW
+  name: ServiceNow
+  cik: 1373715
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Systems Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: NVDA
+  name: Nvidia
+  cik: 1045810
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductors
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: ORCL
+  name: Oracle Corporation
+  cik: 1341439
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Application Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: PANW
+  name: Palo Alto Networks
+  cik: 1327567
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Systems Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: PEP
+  name: PepsiCo
+  cik: 77476
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Soft Drinks & Non-alcoholic Beverages
+  gics_industry: Beverages
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: PFE
+  name: Pfizer
+  cik: 78003
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Pharmaceuticals
+  gics_industry: Pharmaceuticals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: PG
+  name: Procter & Gamble
+  cik: 80424
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Personal Care Products
+  gics_industry: Personal Care Products
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: PLTR
+  name: Palantir Technologies
+  cik: 1321655
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Application Software
+  gics_industry: Software
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: PM
+  name: Philip Morris International
+  cik: 1413329
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Tobacco
+  gics_industry: Tobacco
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: QCOM
+  name: Qualcomm
+  cik: 804328
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductors
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: RTX
+  name: RTX Corporation
+  cik: 101829
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Aerospace & Defense
+  gics_industry: Aerospace & Defense
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: SBUX
+  name: Starbucks
+  cik: 829224
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Restaurants
+  gics_industry: Hotels, Restaurants & Leisure
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: SCHW
+  name: Charles Schwab Corporation
+  cik: 316709
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Investment Banking & Brokerage
+  gics_industry: Capital Markets
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: SNDK
+  name: Sandisk
+  cik: 2023554
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Technology Hardware, Storage & Peripherals
+  gics_industry: Technology Hardware, Storage & Peripherals
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: SO
+  name: Southern Company
+  cik: 92122
+  predecessor_ciks: []
+  gics_sector: Utilities
+  gics_sub_industry: Electric Utilities
+  gics_industry: Electric Utilities
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: T
+  name: AT&T
+  cik: 732717
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Integrated Telecommunication Services
+  gics_industry: Diversified Telecommunication Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: TMO
+  name: Thermo Fisher Scientific
+  cik: 97745
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Life Sciences Tools & Services
+  gics_industry: Life Sciences Tools & Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: TMUS
+  name: T-Mobile US
+  cik: 1283699
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Wireless Telecommunication Services
+  gics_industry: Wireless Telecommunication Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: TSLA
+  name: Tesla, Inc.
+  cik: 1318605
+  predecessor_ciks: []
+  gics_sector: Consumer Discretionary
+  gics_sub_industry: Automobile Manufacturers
+  gics_industry: Automobiles
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: TXN
+  name: Texas Instruments
+  cik: 97476
+  predecessor_ciks: []
+  gics_sector: Information Technology
+  gics_sub_industry: Semiconductors
+  gics_industry: Semiconductors & Semiconductor Equipment
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: UBER
+  name: Uber
+  cik: 1543151
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Passenger Ground Transportation
+  gics_industry: Ground Transportation
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: UNH
+  name: UnitedHealth Group
+  cik: 731766
+  predecessor_ciks: []
+  gics_sector: Health Care
+  gics_sub_industry: Managed Health Care
+  gics_industry: Health Care Providers & Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: UNP
+  name: Union Pacific Corporation
+  cik: 100885
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Rail Transportation
+  gics_industry: Ground Transportation
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: UPS
+  name: United Parcel Service
+  cik: 1090727
+  predecessor_ciks: []
+  gics_sector: Industrials
+  gics_sub_industry: Air Freight & Logistics
+  gics_industry: Air Freight & Logistics
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: V
+  name: Visa Inc.
+  cik: 1403161
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Transaction & Payment Processing Services
+  gics_industry: Financial Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: VZ
+  name: Verizon
+  cik: 732712
+  predecessor_ciks: []
+  gics_sector: Communication Services
+  gics_sub_industry: Integrated Telecommunication Services
+  gics_industry: Diversified Telecommunication Services
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: WMT
+  name: Walmart
+  cik: 104169
+  predecessor_ciks: []
+  gics_sector: Consumer Staples
+  gics_sub_industry: Consumer Staples Merchandise Retail
+  gics_industry: Consumer Staples Distribution & Retail
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+- ticker: XOM
+  name: ExxonMobil
+  cik: 2115436
+  predecessor_ciks:
+  - 34088
+  gics_sector: Energy
+  gics_sub_industry: Integrated Oil & Gas
+  gics_industry: Oil, Gas & Consumable Fuels
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: AI-derived, verified on EDGAR
+excluded:
+- ticker: BAC
+  name: Bank of America
+  cik: 70858
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Diversified Banks
+  gics_industry: Banks
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+  exclusion_reason: GICS industry = Banks
+- ticker: C
+  name: Citigroup
+  cik: 831001
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Diversified Banks
+  gics_industry: Banks
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+  exclusion_reason: GICS industry = Banks
+- ticker: JPM
+  name: JPMorgan Chase
+  cik: 19617
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Diversified Banks
+  gics_industry: Banks
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+  exclusion_reason: GICS industry = Banks
+- ticker: USB
+  name: U.S. Bancorp
+  cik: 36104
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Diversified Banks
+  gics_industry: Banks
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+  exclusion_reason: GICS industry = Banks
+- ticker: WFC
+  name: Wells Fargo
+  cik: 72971
+  predecessor_ciks: []
+  gics_sector: Financials
+  gics_sub_industry: Diversified Banks
+  gics_industry: Banks
+  sources:
+    gics_sector: Wikipedia S&P 500 list (2026-11-25)
+    gics_sub_industry: Wikipedia S&P 500 list (2026-11-25)
+    gics_industry: AI-derived from GICS sub-industry
+    cik: SEC company_tickers.json
+    predecessor_ciks: null
+  exclusion_reason: GICS industry = Banks
+problems:
+- ticker: GOOGL
+  issue: duplicate share class of GOOG (same CIK) - dropped

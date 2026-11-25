@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy
+scipy
+pyarrow
+pyyaml
+requests
+lxml
+yfinance
+tzdata  # IANA tz database for zoneinfo on Windows
+pytest
